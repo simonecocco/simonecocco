@@ -1,0 +1,217 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    body {
+        background-color: #219C90;
+        padding: 50px !important;
+        height: 100vh;
+    }
+
+    div.card {
+        background-color: #EE9322;
+        border: none;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    div.project-tag {
+        background-color: #E9B824;
+        color: #2B2A4C;
+        border-radius: 15px;
+        padding: 8px 15px;
+        width: fit-content;
+        display: inline-block;
+    }
+
+    h1#who-am-i {
+        font-size: 100px;
+        margin-top: 10px;
+    }
+    h3#what-i-am {
+        font-size: 60px;
+        margin-top: 10px;
+        margin-bottom: 35px !important;
+    }
+
+    div.project-icon {
+        height: 100px;
+        background-color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150px;
+    }
+
+    h3.card-title {
+        color: #2B2A4C;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    div.line {
+        display: none !important;
+    }
+
+    div#image-sidebar img {
+        display: none !important;
+    }
+
+    div#image-sidebar {
+        text-align: left !important;
+    }
+
+    div#link-description {
+        padding-left: 0px;
+        font-size: 40px;
+    }
+
+    div#links {
+        color: black !important;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+    div.social-link a:hover {
+        color: #2B2A4C !important;
+    }
+
+    div.social-link {
+        text-align: center;
+    }
+
+    div.social-link a {
+        color: black !important;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    div#link-description {
+        display: none !important;
+    }
+
+    h1#who-am-i {
+        font-size: 100px;
+        margin-top: 10px;
+    }
+    h3#what-i-am {
+        font-size: 60px;
+        margin-top: 10px;
+        margin-bottom: 35px !important;
+    }
+    div.card {
+        background-color: #EE9322;
+        border: none;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    div.project-tag {
+        background-color: #E9B824;
+        color: #2B2A4C;
+        border-radius: 15px;
+        padding: 8px 15px;
+        width: fit-content;
+        display: inline-block;
+    }
+    
+    div.project-icon {
+        height: 100px;
+        background-color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150px;
+    }
+    
+    h3.card-title {
+        color: #2B2A4C;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    body {
+        background-color: #219C90;
+        padding: 50px !important;
+        height: 100vh;
+    }
+    
+    div#image-sidebar {
+        position: fixed;
+        width: fit-content;
+        right: 0px;
+        top: 0px;
+    }
+    
+    div#image-sidebar img {
+        z-index: 3 !important;
+    }
+    
+    div#image-sidebar div.line {
+        background-color: #E9B824;
+        width: 50px;
+        height: 3000px;
+    }
+    
+    div#line1 {
+        position: absolute;
+        top: -300px;
+        right: 320px;
+        transform: rotate(10deg);
+        z-index: -1;
+    }
+    
+    div#line2 {
+        position: absolute;
+        top: -300px;
+        right: 250px;
+        transform: rotate(10deg);
+        z-index: -1;
+    }
+    
+    div#line3 {
+        position: absolute;
+        top: -300px;
+        right: 150px;
+        transform: rotate(8deg);
+        z-index: 4;
+    }
+    
+    div#links {
+        position: absolute;
+        background-color: #EE9322;
+        width: 300px;
+        z-index: 5 !important;
+    }
+    
+    div.social-link {
+        text-align: center;
+    }
+    
+    div.social-link a {
+        color: black !important;
+        font-size: 50px;
+    }
+    
+    div.social-link a:hover {
+        color: #2B2A4C !important;
+    }
+
+    h1#who-am-i {
+        font-size: 100px;
+        margin-top: 10px;
+    }
+    h3#what-i-am {
+        font-size: 60px;
+        margin-top: 10px;
+        margin-bottom: 35px !important;
+    }
+
+    div#image-sidebar-placeholder {
+        display: none !important;
+    }
+}
